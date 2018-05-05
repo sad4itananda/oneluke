@@ -1,0 +1,256 @@
+.wrapper {
+	margin: 0 auto;
+	height: auto;
+	width: 1800px;
+	left:-1800px;	
+}	
+.content-width {
+	width: 1180px;
+	margin: 0 auto;
+}
+.transp {
+	filter: alpha(Opacity=25);
+	opacity: 0.4; z-index: 1;
+}
+/*--------------------------header----------------------*/
+header {
+	background: linear-gradient(to top right, #2c9998, #6fb88d);
+	box-shadow: inset 0 0 200px 100px rgba(0,0,0,0.35);
+	position: relative;
+}
+.header-img img {
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	filter: alpha(Opacity=50);
+	opacity: 0.45; 
+}
+.main-logo {
+	margin: 230px 0 70px;
+}
+.social-menu img {
+	position: relative;
+	top: 10px;
+	left: 12px;
+}
+.circle-social {
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border-radius: 50%;
+	border: 3px solid transparent;
+}
+.circle-social:hover {
+	border-color:  #f1f0f0;
+}
+.circle-cloack {
+	width: 145px;
+	height: 145px;
+	background: transparent;
+	border-radius: 50%;
+	border: 3px solid #f1f0f0;
+}
+header h1 {
+	margin: 96px 0 77px;
+}
+.cloack div:nth-child(-n+3) {
+	margin-right: 55px;
+}
+.cloack {
+	margin-bottom: 130px;
+}
+.cloack-filling {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 20px;
+	left: 30px;
+}
+.cloack-filling p:nth-child(odd) {
+	font-size: 80px;
+	margin-bottom: 10px;
+}
+.cloack-filling p {
+	color: #f1f0f0;
+}
+/*------------------------brands------------------------*/
+.brands-links img:hover {
+	box-shadow:0 0 20px 2px grey;
+	z-index: 5;
+}
+.brands {
+	background-color: #fff;
+}
+/*---------------------more-info-------------------------*/
+.more-info {
+	background-image: url(../images/backgrounds/sky2.png);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+.more-info div div{
+	margin: 80px 0;
+}
+.more-info div div:nth-child(-n+2) {
+	margin-right: 90px;
+}
+.more-info h3 {
+	margin: 30px 0 25px;
+}
+.more-info button {
+	margin: 40px 0 5px 5px;
+}
+.more-info-button {
+	width: 90px;
+	height: 30px;
+	background: #262626;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+}
+.more-info-button:hover {
+	background: #4ca893;
+}
+/*-------------------------subcribe---------------------*/
+.subcsribe {
+	background-color: #51aa92;
+}
+.subcsribe div div {
+	margin: 100px 0 73px ;
+
+}
+.subcsribe div:first-child {
+	flex-basis: 33%;
+}
+.subcsribe div p{
+	color: #d0e8e1;
+}
+/*--------------------subscribe-form--------------------*/
+.subscribe-form {
+	top: 110px;
+}
+.subscribe-form  input{
+	width: 65%;
+	height: 65px;	
+}
+.subscribe-form-button {
+	position: relative;
+	left: -148px;
+	width: 15%;
+	height: 50px;
+	background: #51aa92;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	border:0;
+}
+.subscribe-form-button:hover {
+	background: #262626;
+}
+/*-------------------------who-we-are-------------------*/
+.who-we-are {
+	background-color: #fff;
+}
+.who-we-are h2 {
+	margin: 156px 0  19px 10px;
+}
+.who-we-are h3 {
+	color: #797979;
+}
+.who-we-are div div p {
+	flex-shrink: 2.5;
+}
+.Who-we-are-buttons button {
+	width: 30px;
+	height: 30px;
+	background: #c0c0c0;
+	font-size: 30px;
+	font-weight: 900;
+	color: #fff;
+	margin-top: 10px;
+	margin-right: 5px;
+	border: 0;
+}
+.Who-we-are-buttons button:hover {
+	background: #51aa92;
+}
+.Who-we-are-buttons {
+	margin: 23px 0 80px;	
+}
+.Who-we-are-buttons img {
+	position: relative;
+	zoom: 1.8;
+	top: -6px;
+}
+/*-------------------------tweet------------------------*/
+.tweets {
+	background-color: #51aa92;
+}
+.tweets  img {
+	margin: 70px 0 50px;
+}
+.tweets  p:last-child {
+	margin: 40px 0 85px; 
+}
+/*-------------------------contact-us-------------------*/
+.contact-us {
+	background-color: rgba(96,96,96,0.6);
+	border:transparent 1px solid; 
+}
+.contact-us-img  {
+	background-image:  url(../images/backgrounds/footer-rocks.png);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+.contact-us h2 {
+	margin: 130px 0 78px 10px;
+}
+.contact-us__blocks div:last-child {
+	flex-basis: 178%;
+}
+.contact-us__blocks div h3 {
+	margin: 20px 180px 30px 0;
+}
+.contact-us__blocks div p {
+	margin-bottom: 220px;
+	padding-right: 35px;
+}
+/*-------------------contact-us-form-----------------------*/
+.contact-us__blocks form {
+	margin-top: 43px;
+}
+.contact-us__blocks form div {
+	margin: 0 0 18px;
+}
+.contact-us-form div input:first-child {
+	width: 47%;
+	height: 40px;
+}
+.contact-us-form div input:last-child {
+	width:  47%;;
+	height: 40px;
+}
+.contact-us-form input {
+	width:  100%;
+	height: 40px;
+}
+.contact-us-button {
+	margin: 16px 0 0;
+	width: 30%;
+	height: 40px;
+	background: #262626;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	border:0;
+}
+.contact-us-button:hover {
+	background: #51aa92;
+}
+/*-------------------------footer-----------------------*/
+footer p {  
+	margin: 30px 0 20px; 
+}

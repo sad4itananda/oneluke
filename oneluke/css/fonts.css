@@ -1,0 +1,49 @@
+h1 	{
+	color: #fff;
+	font-family: "Raleway", Thin;
+	font-weight: 100;
+	font-size: 40px;
+}
+.weight {
+	font-weight: 500;
+}
+.cloack-filling p:nth-child(odd) {
+	font-size: 70px;
+}
+.cloack-filling p {
+	color: #f1f0f0;
+	font-family: "Raleway", Thin;
+}
+h2 {
+	color: #fefefe;
+	font-family: "Raleway", Thin;
+	font-weight: 600;
+	font-size: 30.5px;
+}
+h3 {
+	color: #262626;
+	font-family: "Raleway", Thin;
+	font-weight: 700;
+	font-size: 16px;
+}
+.who-we-are h2 {
+	color: #797979;
+}
+.contact-us h3 {
+	color: #fff;
+}
+p  {
+	color: gray;
+	font-family: "Raleway", Light;
+	font-size: 14px;
+}
+/*---------cont us------------------*/
+.contact-us h3, .contact-us p {
+	color: #fefefe;
+}    
+.tweets p {
+	color: #fefefe;
+	font-family: "Raleway", Thin;
+	font-weight: 100;
+	font-size: 18px;
+}
