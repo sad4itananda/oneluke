@@ -1,8 +1,7 @@
 .wrapper {
 	margin: 0 auto;
 	height: auto;
-	width: 1800px;
-	left:-1800px;	
+	width: 1800px;	
 }	
 .content-width {
 	width: 1180px;
